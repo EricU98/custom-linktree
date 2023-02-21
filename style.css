@@ -1,0 +1,191 @@
+body {
+   margin: 15px;
+}
+
+.header-container {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-flex-item {
+   display: flex;
+}
+
+.btn-menu {
+   background-color: lightcoral;
+}
+
+.link-container {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   height: 90vh;
+}
+
+/* 
+ Buttons - TODO
+    Twitch
+    Amazon - Wishlist
+    Youtube
+    Tiktok
+    Discord
+    Snapchat
+    Impressum
+    
+    */
+
+#btn-twitch {
+   color: blueviolet;
+   font-size: 25px;
+   border-color: black;
+   transition: color 0.5s linear;
+}
+#btn-twitch:hover {
+   color: black;
+   /* font-size: 15px; */
+   background: rgb(252, 176, 69);
+   background: radial-gradient(
+      circle,
+      rgba(252, 176, 69, 1) 0%,
+      rgba(127, 0, 227, 1) 100%
+   );
+   box-shadow: 0 0 10px blueviolet;
+   border-color: black;
+}
+
+#btn-amazon {
+   color: rgb(255, 255, 255);
+   background-color: #131921;
+   font-size: 25px;
+   border-color: #f3a847;
+   transition: color 0.5s linear;
+}
+
+#btn-amazon:hover {
+   color: white;
+   /* font-size: 15px; */
+   background: #f3a847;
+   background: radial-gradient(circle, #f3a847 0%, #131921 90%);
+   box-shadow: 0 0 10px #f3a847;
+   border-color: black;
+}
+
+#logo-amazon {
+   text-shadow: 0 0 10px #f3a847;
+}
+
+#btn-youtube {
+   color: black;
+   font-weight: bold;
+   font-size: medium;
+   transition: color 0s linear;
+   border-color: black;
+}
+
+#btn-youtube:hover {
+   background: #ff0000;
+   color: white;
+   text-shadow: 0 0 10px #ffffff;
+}
+
+#logo-youtube {
+   color: rgb(255, 0, 0);
+}
+
+#btn-tiktok {
+   color: black;
+   font-weight: bold;
+   font-size: medium;
+   transition: color 0s linear;
+}
+
+#btn-tiktok:hover {
+   color: rgb(255, 255, 255);
+   /* font-size: 15px; */
+   background: rgb(255, 0, 80);
+   background: linear-gradient(
+      90deg,
+      rgba(255, 0, 80, 1) 0%,
+      rgba(0, 0, 0, 0.9359944661458334) 50%,
+      rgba(0, 242, 234, 1) 100%
+   );
+   box-shadow: 0 0 10px rgb(0, 0, 0);
+   border-color: black;
+}
+
+#btn-discord {
+   background-color: #7289da;
+   color: black;
+   font-weight: bold;
+   font-size: medium;
+   transition: color 0s linear;
+}
+
+#btn-snapchat {
+}
+
+#btn-imprint {
+}
+
+.flex-item {
+   align-items: stretch;
+   height: 25vh;
+   flex-direction: row;
+   font-size: 10vw;
+}
+
+.image-container {
+   display: flex;
+   flex-direction: column;
+}
+.image-container > img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 15%;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+
+.gallery-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.gallery-container-item {
+   margin: 5px;
+}
+
+.gallery-container > img {
+   width: 25% !important;
+   height: auto !important;
+   margin-bottom: 5px;
+   gap: 5px;
+}
+
+#heart {
+   font-weight: bold;
+   color: red;
+   text-shadow: 1px 1px 1px rgb(1, 1, 1);
+}
+
+footer {
+   margin: 10px;
+}
+
+#github {
+   text-decoration: none;
+   color: white;
+}
+#github:hover {
+   text-decoration: none;
+   color: greenyellow;
+   /* box-shadow: 0 0 10px greenyellow; */
+   text-shadow: 0 0 10px greenyellow;
+}
